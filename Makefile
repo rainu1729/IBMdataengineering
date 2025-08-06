@@ -6,6 +6,7 @@ help:
 	@echo "  venv           - Create a Python virtual environment"
 	@echo "  install        - Install dependencies from requirements.txt"
 	@echo "  clean          - Remove temp files in src/temp/"
+	@echo "  test		    - Run unit tests"
 	@echo "  run            - Execute src/main.py"
 	@echo "  docker-build   - Build Docker image (future enhancement)"
 
@@ -27,6 +28,9 @@ run: install
 
 clean:
 	rm -rf $(TEMP_DIR)/*
+
+test: install
+	$(VENV_DIR)/bin/python -m pytest --maxfail=5 --disable-warnings -q
 
 # Future enhancements
 # docker-build:

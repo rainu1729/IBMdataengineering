@@ -45,12 +45,14 @@ def extract(url,table_attribs):
     data = BeautifulSoup(page,'html.parser')
     df = pd.DataFrame(columns=table_attribs)
     tables = data.find_all('tbody')
-    rows = tables[0].find_all('tr')
-    for row in rows[1:]:
-        cols = row.find_all('td')
-        data_dict = {"Name": cols[1].find_all('a')[1].get_text(),
-                    "MC_USD_Billion": cols[2].get_text().strip()}
-        df.loc[df.shape[0]] = data_dict
+    if tables:
+        rows = tables[0].find_all('tr')
+        logger.info(f"Extracting data from {rows}...")
+        for row in rows[1:]:
+            cols = row.find_all('td')
+            data_dict = {"Name": cols[1].find_all('a')[1].get_text(),
+                        "MC_USD_Billion": cols[2].get_text().strip()}
+            df.loc[len(df)] = data_dict
 
     return df
 
