@@ -14,3 +14,11 @@ GDP_DATA_DB = os.getenv('GDP_DATA_DB')
 GDP_DATA_TABLE = os.getenv('GDP_DATA_TABLE')
 GDP_DATA_SCHEMA = ast.literal_eval(os.getenv('GDP_DATA_SCHEMA'))
 GDP_DATA_OUTPUT = os.getenv('GDP_DATA_OUTPUT')
+
+
+BANK_URL = os.getenv('BANK_URL')
+BANK_EXCHANGE_RATE_URL = os.getenv('BANK_EXCHANGE_RATE_URL')
+BANK_DB = os.getenv('BANK_DB')
+BANK_TABLE = os.getenv('BANK_TABLE')
+BANK_SCHEMA = ast.literal_eval(os.getenv('BANK_SCHEMA'))
+BANK_OUTPUT = os.getenv('BANK_OUTPUT')
