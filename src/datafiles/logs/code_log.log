@@ -52,3 +52,156 @@
 4                                HDFC Bank
 2025-08-06T19:07:29.349690+0530 ETL process completed successfully.
 2025-08-06T19:07:29.349848+0530 Main function finished.
+2025-08-06T19:23:48.628684+0530 Main function started.
+2025-08-06T19:23:48.628858+0530 Extracting data from the website...
+2025-08-06T19:23:51.775747+0530 Transforming data...
+2025-08-06T19:23:53.750398+0530 Loading data to CSV file: ./src/datafiles/bankdata/Largest_banks_data.csv
+2025-08-06T19:23:53.751511+0530 Loading data to database table: LARGEST_BANKS
+2025-08-06T19:23:53.779618+0530 Running sample query on the database table...
+2025-08-06T19:23:53.779831+0530 query statement: SELECT * FROM LARGEST_BANKS
+2025-08-06T19:23:53.785409+0530 query output:                                       Name MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_INR_Billion
+0                           JPMorgan Chase         432.92         346.336        402.6156      35910.7140
+1                          Bank of America         231.52         185.216        215.3136      19204.5840
+2  Industrial and Commercial Bank of China         194.56         155.648        180.9408      16138.7520
+3               Agricultural Bank of China         160.68         128.544        149.4324      13328.4060
+4                                HDFC Bank         157.91         126.328        146.8563      13098.6345
+5                              Wells Fargo         155.87         124.696        144.9591      12929.4165
+6                        HSBC Holdings PLC         148.90         119.120        138.4770      12351.2550
+7                           Morgan Stanley         140.83         112.664        130.9719      11681.8485
+8                  China Construction Bank         139.82         111.856        130.0326      11598.0690
+9                            Bank of China         136.81         109.448        127.2333      11348.3895
+2025-08-06T19:23:53.785702+0530 query statement: SELECT AVG(MC_GBP_Billion) FROM LARGEST_BANKS
+2025-08-06T19:23:53.788447+0530 query output:    AVG(MC_GBP_Billion)
+0             151.9856
+2025-08-06T19:23:53.788578+0530 query statement: SELECT Name FROM LARGEST_BANKS LIMIT 5
+2025-08-06T19:23:53.790423+0530 query output:                                       Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+2025-08-06T19:23:53.790572+0530 ETL process completed successfully.
+2025-08-06T19:23:53.790733+0530 Main function finished.
+2025-08-06T19:25:52.691306+0530 Main function started.
+2025-08-06T19:25:52.691445+0530 Extracting data from the website...
+2025-08-06T19:25:53.937648+0530 Transforming data...
+2025-08-06T19:25:55.041153+0530 Loading data to CSV file: ./src/datafiles/bankdata/Largest_banks_data.csv
+2025-08-06T19:25:55.045789+0530 Loading data to database table: LARGEST_BANKS
+2025-08-06T19:25:55.073867+0530 Running sample query on the database table...
+2025-08-06T19:25:55.074060+0530 query statement: SELECT * FROM LARGEST_BANKS
+2025-08-06T19:25:55.081451+0530 query output:                                       Name MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_INR_Billion
+0                           JPMorgan Chase       432.92\n         346.336        402.6156      35910.7140
+1                          Bank of America       231.52\n         185.216        215.3136      19204.5840
+2  Industrial and Commercial Bank of China       194.56\n         155.648        180.9408      16138.7520
+3               Agricultural Bank of China       160.68\n         128.544        149.4324      13328.4060
+4                                HDFC Bank       157.91\n         126.328        146.8563      13098.6345
+5                              Wells Fargo       155.87\n         124.696        144.9591      12929.4165
+6                        HSBC Holdings PLC       148.90\n         119.120        138.4770      12351.2550
+7                           Morgan Stanley       140.83\n         112.664        130.9719      11681.8485
+8                  China Construction Bank       139.82\n         111.856        130.0326      11598.0690
+9                            Bank of China       136.81\n         109.448        127.2333      11348.3895
+2025-08-06T19:25:55.081657+0530 query statement: SELECT AVG(MC_GBP_Billion) FROM LARGEST_BANKS
+2025-08-06T19:25:55.083919+0530 query output:    AVG(MC_GBP_Billion)
+0             151.9856
+2025-08-06T19:25:55.084061+0530 query statement: SELECT Name FROM LARGEST_BANKS LIMIT 5
+2025-08-06T19:25:55.089585+0530 query output:                                       Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+2025-08-06T19:25:55.089823+0530 ETL process completed successfully.
+2025-08-06T19:25:55.089989+0530 Main function finished.
+2025-08-06T19:30:04.929977+0530 Main function started.
+2025-08-06T19:30:04.930133+0530 Extracting data from the website...
+2025-08-06T19:30:16.878987+0530 Transforming data...
+2025-08-06T19:33:10.403932+0530 Main function started.
+2025-08-06T19:33:10.404088+0530 Extracting data from the website...
+2025-08-06T19:33:12.218043+0530 Transforming data...
+2025-08-06T19:33:13.566853+0530 Loading data to CSV file: ./src/datafiles/bankdata/Largest_banks_data.csv
+2025-08-06T19:33:13.569472+0530 Loading data to database table: LARGEST_BANKS
+2025-08-06T19:33:13.595345+0530 Running sample query on the database table...
+2025-08-06T19:33:13.595824+0530 query statement: SELECT * FROM LARGEST_BANKS
+2025-08-06T19:33:13.604858+0530 query output:                                       Name MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_INR_Billion
+0                           JPMorgan Chase       432.92\n         346.336        402.6156      35910.7140
+1                          Bank of America       231.52\n         185.216        215.3136      19204.5840
+2  Industrial and Commercial Bank of China       194.56\n         155.648        180.9408      16138.7520
+3               Agricultural Bank of China       160.68\n         128.544        149.4324      13328.4060
+4                                HDFC Bank       157.91\n         126.328        146.8563      13098.6345
+5                              Wells Fargo       155.87\n         124.696        144.9591      12929.4165
+6                        HSBC Holdings PLC       148.90\n         119.120        138.4770      12351.2550
+7                           Morgan Stanley       140.83\n         112.664        130.9719      11681.8485
+8                  China Construction Bank       139.82\n         111.856        130.0326      11598.0690
+9                            Bank of China       136.81\n         109.448        127.2333      11348.3895
+2025-08-06T19:33:13.605046+0530 query statement: SELECT AVG(MC_GBP_Billion) FROM LARGEST_BANKS
+2025-08-06T19:33:13.608308+0530 query output:    AVG(MC_GBP_Billion)
+0             151.9856
+2025-08-06T19:33:13.608466+0530 query statement: SELECT Name FROM LARGEST_BANKS LIMIT 5
+2025-08-06T19:33:13.610785+0530 query output:                                       Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+2025-08-06T19:33:13.611024+0530 ETL process completed successfully.
+2025-08-06T19:33:13.611278+0530 Main function finished.
+2025-08-06T19:33:36.172730+0530 Main function started.
+2025-08-06T19:33:36.172883+0530 Extracting data from the website...
+2025-08-06T19:33:37.895534+0530 Transforming data...
+2025-08-06T19:33:41.079034+0530 Loading data to CSV file: ./src/datafiles/bankdata/Largest_banks_data.csv
+2025-08-06T19:33:41.080409+0530 Loading data to database table: LARGEST_BANKS
+2025-08-06T19:33:41.104254+0530 Running sample query on the database table...
+2025-08-06T19:33:41.104950+0530 query statement: SELECT * FROM LARGEST_BANKS
+2025-08-06T19:33:41.114667+0530 query output:                                       Name MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_INR_Billion
+0                           JPMorgan Chase         432.92         346.336        402.6156      35910.7140
+1                          Bank of America         231.52         185.216        215.3136      19204.5840
+2  Industrial and Commercial Bank of China         194.56         155.648        180.9408      16138.7520
+3               Agricultural Bank of China         160.68         128.544        149.4324      13328.4060
+4                                HDFC Bank         157.91         126.328        146.8563      13098.6345
+5                              Wells Fargo         155.87         124.696        144.9591      12929.4165
+6                        HSBC Holdings PLC         148.90         119.120        138.4770      12351.2550
+7                           Morgan Stanley         140.83         112.664        130.9719      11681.8485
+8                  China Construction Bank         139.82         111.856        130.0326      11598.0690
+9                            Bank of China         136.81         109.448        127.2333      11348.3895
+2025-08-06T19:33:41.114855+0530 query statement: SELECT AVG(MC_GBP_Billion) FROM LARGEST_BANKS
+2025-08-06T19:33:41.117254+0530 query output:    AVG(MC_GBP_Billion)
+0             151.9856
+2025-08-06T19:33:41.117478+0530 query statement: SELECT Name FROM LARGEST_BANKS LIMIT 5
+2025-08-06T19:33:41.119512+0530 query output:                                       Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+2025-08-06T19:33:41.119678+0530 ETL process completed successfully.
+2025-08-06T19:33:41.119791+0530 Main function finished.
+2025-08-06T20:24:31.605674+0530 Main function started.
+2025-08-06T20:24:31.605832+0530 Extracting data from the website...
+2025-08-06T20:24:35.317444+0530 Transforming data...
+2025-08-06T20:24:36.555751+0530 Loading data to CSV file: ./src/datafiles/bankdata/Largest_banks_data.csv
+2025-08-06T20:24:36.560448+0530 Loading data to database table: LARGEST_BANKS
+2025-08-06T20:24:36.590171+0530 Running sample query on the database table...
+2025-08-06T20:24:36.590811+0530 query statement: SELECT * FROM LARGEST_BANKS
+2025-08-06T20:24:36.618453+0530 query output:                                       Name MC_USD_Billion  MC_GBP_Billion  MC_EUR_Billion  MC_INR_Billion
+0                           JPMorgan Chase         432.92         346.336        402.6156      35910.7140
+1                          Bank of America         231.52         185.216        215.3136      19204.5840
+2  Industrial and Commercial Bank of China         194.56         155.648        180.9408      16138.7520
+3               Agricultural Bank of China         160.68         128.544        149.4324      13328.4060
+4                                HDFC Bank         157.91         126.328        146.8563      13098.6345
+5                              Wells Fargo         155.87         124.696        144.9591      12929.4165
+6                        HSBC Holdings PLC         148.90         119.120        138.4770      12351.2550
+7                           Morgan Stanley         140.83         112.664        130.9719      11681.8485
+8                  China Construction Bank         139.82         111.856        130.0326      11598.0690
+9                            Bank of China         136.81         109.448        127.2333      11348.3895
+2025-08-06T20:24:36.618830+0530 query statement: SELECT AVG(MC_GBP_Billion) FROM LARGEST_BANKS
+2025-08-06T20:24:36.623773+0530 query output:    AVG(MC_GBP_Billion)
+0             151.9856
+2025-08-06T20:24:36.624008+0530 query statement: SELECT Name FROM LARGEST_BANKS LIMIT 5
+2025-08-06T20:24:36.628106+0530 query output:                                       Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
+2025-08-06T20:24:36.628388+0530 ETL process completed successfully.
+2025-08-06T20:24:36.628628+0530 Main function finished.
