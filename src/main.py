@@ -1,10 +1,12 @@
-from src.scraping.sample_scraper import scrape
+from src.scraping.scraper import scrape
 from src.logging.logger import logger
+from src.scraping.gdpdata import run as run_gdp_data
 
 
 def main():
     logger.info("Main function started.")
-    scrape()
+    # scrape()
+    run_gdp_data()
     logger.info("Main function finished.")
 
 
